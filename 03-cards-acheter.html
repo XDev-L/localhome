@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appartements à Acheter</title>
+    <style>
+
+       
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff ;
+}
+
+header {
+    /* background-color: aqua; */
+    background-color: rgb(212 175 55 / 60%);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content p {
+    margin: 5px 0;
+    /* color: #150e70; */
+    color: rgb(212, 175, 55);
+    font-size: 0.9rem;
+}
+    </style>
+    
+</head>
+<body>
+    <header>
+        
+        <h1>Appartements a achetet</h1>
+    </header>
+    <main class="grid-container">
+        
+        <div class="card">
+            <a href="05-index.html">
+                <img src="imgs/home1.jpg" alt="Appartement 1">
+            </a>
+            <div class="card-content">
+                <p>Superficie: 120 m²</p>
+                <p>Localisation: Casablanca</p>
+                <a href="www.exemple.com">plus d information </a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <a href="05-index.html">
+                <img src="imgs/home2.jpg" alt="Appartement 1">
+            </a>
+            <div class="card-content">
+                <p>Superficie: 90 m²</p>
+                <p>Localisation: Rabat</p>
+                <a href="www.exemple.com">plus d information </a>
+            </div>
+        </div>
+        <div class="card">
+            <a href="05-index.html">
+                <img src="imgs/home3.jpg" alt="Appartement 1">
+            </a>
+            <div class="card-content">
+                <p>Superficie: 120 m²</p>
+                <p>Localisation: Casablanca</p>
+                <a href="www.exemple.com">plus d information </a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <a href="05-index.html">
+                <img src="imgs/home4.jpg" alt="Appartement 1">
+            </a>
+            <div class="card-content">
+                <p>Superficie: 90 m²</p>
+                <p>Localisation: Rabat</p>
+                <a href="www.exemple.com">plus d information </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="05-index.html">
+                <img src="imgs/home5.jpg" alt="Appartement 1">
+            </a>
+            <div class="card-content">
+                <p>Superficie: 120 m²</p>
+                <p>Localisation: Casablanca</p>
+                <a href="www.exemple.com">plus d information </a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <a href="05-index.html">
+                <img src="imgs/home10.jpg" alt="Appartement 1">
+            </a>
+            <div class="card-content">
+                <p>Superficie: 90 m²</p>
+                <p>Localisation: Rabat</p>
+                <a href="www.exemple.com">plus d information </a>
+            </div>
+        </div>
+        <div class="card">
+            <a href="05-index.html">
+                <img src="imgs/home8.jpg" alt="Appartement 1">
+            </a>
+            <div class="card-content">
+                <p>Superficie: 120 m²</p>
+                <p>Localisation: Casablanca</p>
+                <a href="www.exemple.com">plus d information </a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <a href="05-index.html">
+                <img src="imgs/home9.jpg" alt="Appartement 1">
+            </a>
+            <div class="card-content">
+                <p>Superficie: 90 m²</p>
+                <p>Localisation: Rabat</p>
+                <a href="www.exemple.com">plus d information </a>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
